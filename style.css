@@ -1,0 +1,176 @@
+/*menu section*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    background-color: #0A1F44;
+    color:white;
+    padding:15px;
+}
+.nav-links >li{
+    list-style: none;
+    display:inline-block;
+    margin:10px;
+}
+.nav-links> li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    color:#fff;
+    text-transform: uppercase;
+    
+}
+.logo{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+/*colors section*/
+#colors {
+    width: 80%;
+    margin: 15px auto;
+    padding: 30px 20px;
+    text-align: center; /* <-- questa riga centra h2 e p */
+    font-family: 'Inter', sans-serif;
+    border:2px solid #10303d;
+}
+h2,p{
+    margin-bottom:10px;
+}
+
+.colors-container-one{
+display:flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.modern{
+ width:600px;
+ height:200px;
+text-align: center;
+font-family: 'Inter', sans-serif;
+color:white;
+margin:15px;
+display: flex;
+    align-items: center;     /* centra verticalmente */
+    justify-content: center;
+    flex-direction: column;
+    border-radius:10px;
+}
+
+.color1{
+
+    background-color:#3A506B ;
+}
+
+.color2{
+    background-color: #5BC0BE;
+}
+
+.color3{
+
+    background-color: #EDF2F4;
+    color: #121212;
+}
+
+.colors-container-two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color4{
+    background-color:#0077B6 ;
+}
+
+.color5{
+    background-color:#00FF87 ;
+}
+
+
+.color6{
+    background-color: #E9FF70;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header{
+        display:flex;
+        justify-content: space-around;
+        background-color: #0A1F44;
+        color:white;
+        padding:15px;
+        align-items: center;     /* centra verticalmente */
+    justify-content: center;
+    flex-direction: column;
+    border-radius:10px;
+    }
+    .colors-container-one {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .colors-container-two {
+        flex-direction: column;
+        
+      }
+
+      .modern{
+        width:200px;
+        height:220px;
+      }
+    
+  }
+
+
+  @media (max-width: 1024px) {
+    /*.modern{
+        width:300px;
+        height:100px;
+      }*/
+      header{
+        display:flex;
+        justify-content: space-around;
+        background-color: #0A1F44;
+        color:white;
+        padding:15px;
+        align-items: center;     /* centra verticalmente */
+        justify-content: center;
+        flex-direction: column;
+        border-radius:10px;
+    }
+  }
+
+
+
+
+
+
+
